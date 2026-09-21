@@ -1,25 +1,25 @@
 class Kaibo < Formula
   desc "kaibo: a typed CLI interface to a git-backed markdown knowledge corpus, for AI coding agents."
   homepage "https://github.com/tenex-hq/kaibo"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tenex-hq/kaibo/releases/download/v0.1.0/kaibo-aarch64-apple-darwin.tar.xz"
-      sha256 "6b8f8c608e6ad941b0550a3c555715967b98b8374e5535000558790fc0dd9c1f"
+      url "https://github.com/tenex-hq/kaibo/releases/download/v0.2.0/kaibo-aarch64-apple-darwin.tar.xz"
+      sha256 "5930345d928edf7c647d22ab1a1725a28705c39d346d0caeb38522dff9ed79fd"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tenex-hq/kaibo/releases/download/v0.1.0/kaibo-x86_64-apple-darwin.tar.xz"
-      sha256 "f6643b2ea3dd17908781a31b8fff2e156318cf46ede3b25d725662eae25fb0ca"
+      url "https://github.com/tenex-hq/kaibo/releases/download/v0.2.0/kaibo-x86_64-apple-darwin.tar.xz"
+      sha256 "dc8ebe3833a7095eec59bb9e8cc45b4493fa5a6d5015eec625883327cb6161b7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tenex-hq/kaibo/releases/download/v0.1.0/kaibo-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0f5d1bf600b0fd092789a7aa8be681641ca7d2cf2f3882d0ced6b640e18fe480"
+      url "https://github.com/tenex-hq/kaibo/releases/download/v0.2.0/kaibo-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4aa418d4ae029e1c0225655ccf420752458501a0baf5770a962d0d68b3aca453"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tenex-hq/kaibo/releases/download/v0.1.0/kaibo-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "22a982074ed39033f606899944c016413722cd9b6c09ea4645a5dde3413068a9"
+      url "https://github.com/tenex-hq/kaibo/releases/download/v0.2.0/kaibo-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0b5d89df1645f769d2d78d64ea65f3553fd8a123ab73139eed2d553c9a969727"
     end
   end
   license "MIT"
